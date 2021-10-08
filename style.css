@@ -1,0 +1,118 @@
+
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 0;
+        padding: 0;
+    }
+}
+html, body{
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+  }
+
+html, body, h3, p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
+.wrapper{
+	flex: 1 0  auto;
+}
+.header {
+	width: 100%;
+}
+.headerImage {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.main{ 	
+	padding: 0 30px;
+	margin-bottom: 100px;
+}
+.mainTitle{
+	font-size: 25px;
+	font-weight: 600;
+	margin: 0 0 10px 0;
+	padding: 30px 0 20px 0;
+	border-bottom: 2px solid #000;
+}
+.mainInfo{
+	margin-bottom: 100px;
+}
+.mainText{
+	margin: 0;
+	font-size: 14px;
+}
+.mainText span {	
+	font-weight: 800;
+	
+}
+.mainIncomeContainer{
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+.flexContainer{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.underlined{
+	border-bottom: 2px solid #000;
+}
+span.underlinedLight, .underlinedLight{
+	font-weight: 300;
+	border-bottom: 1px solid #000;
+}
+.rightHalf{
+	width: 100%;
+	max-width: 50%;
+}
+.footer {
+	flex-shrink: 1;
+}
+.footerContainer{
+	width: 50%;
+	display: flex;
+	align-items: flex-end;
+}
+.footeWrapper{
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+	padding-left: 50px;
+}
+.footerLogo{
+	width: 40px;
+}
+.footerLogoTitle{
+	margin-left: 5px;
+}
+.footerLogoTitle h1{
+	font-size: 16px;
+	margin: 0;
+	color: #357b6b;
+}
+.footerLogoTitle p{
+	font-size: 12px;
+	color: rgb(97, 81, 0.733);
+}
+.footerContact{
+	width: 100%;
+	margin-left: 50px;
+	font-size: 14px;
+	color: rgba(97, 81, 81, 0.733);
+}
+.footerContact p {	
+	font-weight: 800;
+}
+.footerImage{
+	display: block;
+	width: 100%;
+	height: 30px;
+}
